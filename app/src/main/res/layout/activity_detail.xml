@@ -15,15 +15,9 @@
         android:layout_height="match_parent">
 
 
-        <TableRow>
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".5"
-                android:fontFamily="sans-serif-smallcaps"
-                android:text="PRICE"
-                android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <TextView
                 android:layout_width="0dp"
@@ -33,6 +27,14 @@
                 android:text="PRODUCT"
                 android:textAppearance="@android:style/TextAppearance.Holo.Small" />
 
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="PRICE"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+
         </TableRow>
 
         <TableRow>
@@ -40,22 +42,18 @@
 
             <TextView
                 android:id="@+id/TextViewTitle"
-                android:layout_width="0dp"
+                android:layout_width="176dp"
                 android:layout_height="wrap_content"
                 android:layout_weight=".5"
                 android:fontFamily="sans-serif-smallcaps"
                 android:textAppearance="@android:style/TextAppearance.Holo.Small" />
-        </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/price"
-                android:layout_width="wrap_content"
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-smallcaps" />
+
         </TableRow>
 
         <TableRow>
@@ -95,7 +93,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="150dp"
                 android:layout_weight=".5"
-                android:fontFamily="sans-serif-smallcaps"
                 android:scrollbars="vertical"
                 android:textSize="20dp" />
         </TableRow>
