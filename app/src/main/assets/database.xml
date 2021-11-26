@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <class name="user">
+        <object Id="067e6162-3b6f-4ae2-a171-2470b63dff00">
+            <properties>
+                <property name="email"><![CDATA[movil@facci.com]]></property>
+                <property name="password"><![CDATA[hello]]></property>
+            </properties>
+        </object>
+    </class>
+    <class name="item">
+        <object Id="067e6162-3b6f-4ae2-a171-2470b63dff01">
+            <properties>
+                <property name="type"><![CDATA[lavadora]]></property>
+                <property name="name"><![CDATA[Lavadora]]></property>
+                <property name="description"><![CDATA[Fundamentalmente, la lavadora, es una máquina que sirve para lavar la ropa ahorrando esfuerzo, tiempo y agua. Esto lo consigue mezclando agua con jabón o detergente y con la ropa sucia y moviendo esta a gran velocidad dentro de un tambor.]]></property>
+                <property name="price"><![CDATA[850.90]]></property>
+                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff10.jpg]]></property>
+            </properties>
+        </object>
+        <object Id="067e6162-3b6f-4ae2-a171-2470b63dff02">
+            <properties>
+                <property name="type"><![CDATA[tomatodo]]></property>
+                <property name="name"><![CDATA[Tomatodo]]></property>
+                <property name="description"><![CDATA[Descripción: Tomatodo plástico de cuerpo de color traslúcido, con tapa asa de color sólido. Para agua caliente y fría. ... PRESENTACIÓN: Individual, en bolsa de plástico transparente.]]></property>
+                <property name="price"><![CDATA[25.0]]></property>
+                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff11.jpg]]></property>
+            </properties>
+        </object>
+        <object Id="067e6162-3b6f-4ae2-a171-2470b63dff03">
+            <properties>
+                <property name="type"><![CDATA[calculadora]]></property>
+                <property name="name"><![CDATA[Calculadora]]></property>
+                <property name="description"><![CDATA[Una calculadora es un dispositivo que se utiliza para realizar cálculos aritméticos. Aunque las calculadoras modernas incorporan a menudo un ordenador de propósito general, se diseñan para realizar ciertas operaciones más que para ser flexibles. ... Este proceso de cálculo semimanual era tedioso y proclive a errores.]]></property>
+                <property name="price"><![CDATA[20.90]]></property>
+                <property name="image"><![CDATA[067e6162-3b6f-4ae2-a171-2470b63dff12.jpg]]></property>
+            </properties>
+        </object>
+    </class>
+</data>
